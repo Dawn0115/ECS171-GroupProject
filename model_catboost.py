@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_log_error
 import numpy as np
 
-df = pd.read_csv('cleaned_train_with_features.csv')
+df = pd.read_csv('EDA/train_newfeature.csv')
 
 target = 'Rings'
 id_col = 'id'
